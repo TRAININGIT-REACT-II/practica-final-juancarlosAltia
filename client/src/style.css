@@ -1,0 +1,65 @@
+*{
+    text-align: center;
+    justify-content: center;
+}
+nav {
+    display:flex;
+    background:indigo; 
+    padding: 8px 20px;
+}
+nav>a {
+    margin: 5px 20px; 
+    font-size:16px; 
+    color:white; 
+    text-decoration:none;
+}
+
+form{
+    width: 50%;
+    margin-left: 25%;
+}
+
+form> label{
+    width: 100%;
+    display: flex;
+    padding: 8px 20px;
+    margin-left: -5%;
+}
+
+form> input{
+    width: 50%;
+    display: flex;
+    margin-left: 20%;
+    padding: 8px 20px;
+}
+
+button{
+    padding: 8px 20px;
+    margin: 10px 20px; 
+    font-size:16px; 
+    color:white; 
+    text-decoration:none;
+    background:indigo; 
+}
+
+.delete{
+    background:rgb(226, 16, 16); 
+}
+
+.notes-container{
+    display: grid;
+    margin: 10px 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.note{
+    border: 1px solid gray;
+    margin: 10px 20px; 
+}
+
+button:hover{
+    background-color: rgb(182, 194, 206);
+    cursor: pointer;
+}
